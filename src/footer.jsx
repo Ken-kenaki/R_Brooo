@@ -1,13 +1,20 @@
 function Footer() {
     return (
-        <footer className="footer-contianer">
-            <div className="footer-content">
+        <footer>
+            <div className="footer-container">
                 <div className="footer-left">
-                    <h3>Footer</h3>
-                    <p>This is a footer</p>
+                    Footer Left
                     
                 </div>
+                <div className="footer-right">
+                    Footer Right
+                </div>
             </div>
+            <hr />
+            <div className="footer-bottom">
+                <p>&copy; {new Date().getFullYear()} All Rights Reserved</p>
+            </div>
+
         </footer>
     )
 };
